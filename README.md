@@ -1,5 +1,11 @@
-# deployments_SAP
+# Helper for deployments on neo platform
 GUI using Tkinter for running deployment scripts
+
+Prerequisites:
+python, Tkinter, properties.json 
+
+Execute:
+`python main.py`
 
 ### A properties.json file has to be used for configuration
 ##### Format:
