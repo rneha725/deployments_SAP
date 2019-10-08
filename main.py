@@ -132,6 +132,6 @@ menu = Menu(master)
 menu.add_command(label="Add Customer", command=add_customer)
 menu.add_command(label="Create properties.json")
 add_customer_button = Button(master, text="Add Customer", command=add_customer).pack();
-exit = Button(master, text="Exit", command=master.destroy).pack();
-
 mainloop();
+
+Comments by Pradeep	
