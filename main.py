@@ -64,7 +64,7 @@ def get_command(neo, process_type, account, application, user, password, host,
     neo_command = neo_command + "--application " + application + " "
     if user:
         neo_command = neo_command + "--user " + user + " "
-    if password:
+    elif password:
         neo_command = neo_command + "--password " + password + " "
     neo_command = neo_command + "--host " + host + " "
     if process_type == PROCESS_TYPE["DEPLOY"][0].lower():
